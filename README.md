@@ -15,5 +15,6 @@ Html, javascript를 활용해서 만든 바탕화면 정리 가젯입니다
 - 기타 확인되지 않은 버그
 
 ※ 필독
+
 윈도우 8 이상 운영체제에서는 https://8gadgetpack.net/ 이 필요로합니다.
 다운로드 받은 Launcher.gadget.zip 파일의 확장자를 gadget로 변경해주세요
