@@ -21,7 +21,10 @@ Html, javascript를 활용해서 만든 바탕화면 정리 가젯입니다.
 
 윈도우 8 이상 운영체제에서는 8gadgetpack 과 넷프레임워크 3.5가 필요합니다.
 
-https://8gadgetpack.net/  - 8gadgetpack 
+https://8gadgetpack.net/ - 8gadgetpack 
+
+
 https://www.microsoft.com/ko-kr/download/details.aspx?id=25150  - 넷프레임워크 3.5
+
 
 다운로드 받은 Launcher.gadget.zip 파일의 확장자를 gadget로 변경해주세요
