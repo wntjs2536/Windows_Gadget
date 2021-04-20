@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+<name>바탕화면 정리</name>
+<namespace>바탕화면 정리</namespace>
+<version>1.0.0.0</version>
+<author name="Made by">
+<logo src="icon.png" />
+</author>
+<copyright>sun2</copyright>
+<description>바탕화면 정리 가젯</description>
+<icons>
+<icon height="48" width="67" src="icon.png" />
+</icons>
+<hosts>
+<host name="sidebar">
+<base type="HTML" apiVersion="1.0.0" src="Launcher.html" />
+<permissions>Full</permissions>
+<platform minPlatformVersion="1.0" />
+<defaultImage src="icon.png" />
+</host>
+</hosts>
+</gadget>
