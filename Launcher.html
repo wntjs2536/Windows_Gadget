@@ -1,0 +1,88 @@
+<html>
+	<head onload= "Write_log();">
+		<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap&subset=korean" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/move_and_run.js"></script>
+	</head>
+	
+	<body onload="Write_log();">
+		<div class="left">
+			<table style= "width: 30px; height: 100px; text-align: left; filter:alpha(opacity=80);">
+				<tr>
+				   
+					<td><img src="images/foderadd.png"><input type="text" id="output" style="width:750px;" onkeypress="File_Address_Input();"></textarea></td>
+				</tr>
+				<tr>
+					<td><iframe name= "url_link" id="link" src="" style=" width: 820px; height: 300px;"></iframe></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="right">
+			<table style= "width: 0px; height: 300px; text-align: center;" >
+			<tr>
+				<td><button type="button;" id="task;" onclick="Task();"><img src="images/task.png"></td></button>
+				<td><button type="button;" id="explorer;" onclick="Explorer();"><img src="images/explorer.png"></td></button>
+				<td><button type="button;" id="notePad;" onclick="NotePad();"><img src="images/note.png"></td></button>
+			</tr>
+		
+			<tr>
+				<td><p>작업관리자</p></td>
+				<td><p>익스플로러</p></td>
+				<td><p>메모장</p></td>
+			</tr>
+		
+			<tr>
+				<td><button type="button;" id="mspaint;" onclick="Mspaint();"><img src="images/mspaint.png"></td></button>
+				<td><button type="button;" id="sndVol;" onclick="SndVol();"><img src="images/vol.png"></td></button>
+				<td><button type="button;" id="cmd;" onclick="Cmd();"><img src="images/cmd.png"></td></button>
+			</tr>
+	
+		<tr>
+		
+			<td><p>그림판</p></td>
+			<td><p>사운드</p></td>
+			<td><p>명령창</p></td>
+		</tr>
+		
+		<tr>
+		
+			<td><button type="button;" id="game;" onclick="Game();"><img src= "images/game.png"></td></button>
+			<td><button type="button;" id="picture;" onclick="Picture();"><img src="images/picture.png"></td></button>
+			<td><button type="button;" id="programming;" onclick="Programming();"><img src="images/programming.png" ></td></button>
+		
+		</tr>
+		
+		<tr>
+			<td><p>게임</p></td>
+			<td><p>사진</p></td>
+			<td><p>개발도구</p></td>
+		</tr>
+		
+		<tr>
+		
+			<td><button type="button;" id="pc_management;" onclick="Pc_Management();"><img src="images/pc_management.png"></td></button>
+			<td><button type="button;" id="document;" onclick="Document();"><img src="images/document.png"></td></button>
+			<td><button type="button;" id="download;" onclick="Download();"><img src="images/download.png"></td></button>
+		
+		</tr>
+	
+		<tr>
+			
+			<td><p>응용프로그램</p></td>
+			<td><p>문서작업</p></td>
+			<td><p>다운로드</p></td>
+			
+		</tr>
+		
+			<tr>
+				<td><button type="button;" id="gadget_folder;" onclick="Gadget_Folder();"><img src="images/gadget_folder.png" onmouseout= "src='images/gadget_folder.png'" onmouseover="this.src='images/gadget_folder_up.png'" onmousedown="this.src='images/gadget_folder_click.png'" onmouseup="this.src='images/gadget_folder.png'"></td></button>
+				<td><button type="button;" id="home_Folder;" onclick="Home_Folder();"><img src="images/home_folder.png" onmouseout= "src='images/home_folder.png'" onmouseover="this.src='images/gadget_folder_up.png'" onmousedown="this.src='images/gadget_folder_click.png'" onmouseup="this.src='images/home_folder.png'"></button></td>
+				<td><button type="button;" id="start_log;" onclick="Check_log();"><img src="images/log.png" onmouseout= "src='images/log.png'" onmouseover="this.src='images/gadget_folder_up.png'" onmousedown="this.src='images/gadget_folder_click.png'" onmouseup="this.src='images/log.png'"></button></td>
+			</tr>
+			
+		</table>
+		</div>
+		
+	</body>
+</html>
