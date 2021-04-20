@@ -22,7 +22,7 @@ Html, Javascript를 활용해서 만든 바탕화면 정리 가젯입니다.
 
 윈도우 8 이상 운영체제에서는 8 gadget pack 과 넷프레임워크 3.5가 필요합니다.
 
-https://8 gadget pack.net/ -----> 8 gadget pack 
+https://8gadgetpack.net/ -----> 8 gadget pack 
 
 
 https://www.microsoft.com/ko-kr/download/details.aspx?id=25150  ------> 넷프레임워크 3.5
