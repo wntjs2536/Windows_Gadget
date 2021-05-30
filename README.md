@@ -30,3 +30,6 @@ https://www.microsoft.com/ko-kr/download/details.aspx?id=25150  ------> 넷프�
 
 다운로드 받은 Launcher·gadget.zip 파일의 확장자를 gadget으로 변경해주세요
 
+fix_log
+2021-05-30
+- 파일 무결성 기능 무반응 수정 (잘못된 온로드 설정)
