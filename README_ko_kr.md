@@ -39,7 +39,7 @@ C:\Users\%USERNAME%\Pictures 폴더를 열고 보기탭에서 보기형식 지�
 
 (추후 방식 수정 할 예정입니다.)
 
-## Fix&Chang_Log
+## Fix & Chang_Log
 
 2021-05-30
 - 파일 무결성 기능 무반응 수정 (잘못 된 온로드 설정 변경)
