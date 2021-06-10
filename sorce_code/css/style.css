@@ -1,0 +1,33 @@
+	
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');		
+@font-face {
+	font-family: 'East Sea Dokdo';
+}
+		
+body {
+	width:1080px;
+	height:400px;
+}
+	
+p {
+	font-family: 'East Sea Dokdo', cursive; font-size: 20px;
+}
+
+button {
+	background-color:transparent; border:0px transparent solid;
+}
+
+input {
+	font-family: 'Garamond';
+	padding:0px 0px 0px 10px;
+}
+
+div.left {
+	width: 80%;
+	float: left;
+}
+
+div.right {
+	width: 20%;
+	float: right;
+}
